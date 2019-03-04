@@ -1,0 +1,28 @@
+.text-editor {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.word {
+  display: inline-block;
+  position: relative;
+
+  &--bold {
+    font-weight: bold;
+  }
+
+  &--italic {
+    font-style: italic;
+  }
+
+  &--underline {
+    text-decoration: underline;
+  }
+
+  &:hover {
+    background-color: #d6d6d6;
+    cursor: pointer;
+  }
+}

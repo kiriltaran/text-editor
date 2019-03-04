@@ -2,6 +2,7 @@ module.exports = {
   root: true,
   env: {
     browser: true,
+    jest: true,
   },
   parser: 'babel-eslint',
   parserOptions: {
@@ -25,5 +26,6 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 'off',
+    'react/no-array-index-key': 'off',
   },
 }
